@@ -41,4 +41,4 @@ func loadResource():
 			node.owner = get_tree().edited_scene_root
 			node.z_index = layer
 			layer += 1
-	#set_script(null)
+	set_script(null)
