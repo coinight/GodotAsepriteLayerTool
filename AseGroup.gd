@@ -8,7 +8,7 @@ extends Node2D
 		source = ResourceLoader.load(sourceJson.split(".")[0]+".png")
 		loadResource()
 @export var source:Texture2D
-@export var load:bool = false:
+@export var loadEnable:bool = false:
 	set(value):
 		loadResource()
 
