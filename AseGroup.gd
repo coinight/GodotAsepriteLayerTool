@@ -1,7 +1,7 @@
 @tool
 extends Node2D
 
-@export_file var sourceJson :
+@export_file("*.json") var sourceJson :
 	set(value):
 		sourceJson = value
 		print(sourceJson.split(".")[0]+".png")
